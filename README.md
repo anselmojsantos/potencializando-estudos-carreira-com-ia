@@ -27,21 +27,21 @@ Pense no chatbot como um consultor disponível 24 horas. Você descreve sua dúv
 
 ### Na prática
 
-Vamos começar a jornada conversando com um chatbot para descobrir uma área de tecnologia que combine com seu perfil. Use o prompt abaixo no ChatGPT (ou em qualquer outro chatbot da sua preferência):
+Vamos começar a jornada conversando com um chatbot para descobrir uma área de tecnologia que combine com seu perfil.
+
+Use o prompt abaixo no ChatGPT (ou em qualquer outro chatbot da sua preferência):
 
 ```
-Quero entrar na área de tecnologia e estou em transição de carreira.
+Quero entrar na área de tecnologia, estou em transição de carreira e tenho 1h por dia para estudar.
 Meu background é em [sua área de origem, ex.: Psicologia].
-Tenho 1 hora por dia para estudar e estou começando do zero.
 
 Me ajude a decidir por onde começar. Responda assim:
 
-1. Três áreas de tecnologia que combinam com meu perfil, em ordem de afinidade
-2. Para cada área, uma frase explicando por que faria sentido pra mim
-3. Uma sugestão final de qual escolher para começar e o porquê
-4. Cinco tópicos iniciais que eu deveria estudar nessa área
+1. Três áreas que combinam com meu perfil, em ordem de afinidade
+2. Uma sugestão final de qual escolher e o porquê
+3. Cinco tópicos iniciais para estudar nessa área
 
-Use linguagem simples, como se estivesse conversando com um amigo.
+Use linguagem simples, como se fosse uma conversa com um amigo.
 ```
 
 Ao final, copie a resposta para um bloco de notas. A área escolhida e os cinco tópicos iniciais vão ser o ponto de partida da próxima prática.
@@ -54,43 +54,47 @@ Ao final, copie a resposta para um bloco de notas. A área escolhida e os cinco 
 
 Se o chatbot é um consultor que você procura quando tem uma dúvida, o copiloto é um colega de trabalho sentado ao seu lado. Ele enxerga o que você está fazendo (seu código, seu documento, sua planilha) e sugere melhorias em tempo real, sem que você precise parar e perguntar.
 
+Uma diferença importante: enquanto o chatbot só conhece o que você digita na conversa, o copiloto pode acessar o contexto da ferramenta em que está integrado. No Google Docs, por exemplo, o Gemini pode usar seus arquivos do Drive e até seus emails do Gmail como referência, enriquecendo as sugestões com informações que já são suas.
+
 ### Na prática
 
 Você sai da prática anterior com uma área escolhida e cinco tópicos iniciais. Agora vamos transformar isso em um plano de estudos estruturado dentro de um documento, com o copiloto sugerindo enquanto você escreve.
 
-**Passo 1: Pedir uma estrutura inicial**
+**Passo 1: Pedir uma estrutura inicial usando seu próprio contexto**
 
 Em um documento em branco no Google Docs, acione o copiloto integrado e use o prompt:
 
 ```
-Quero montar um plano de estudos de 30 dias.
+Crie um plano de estudos de 30 dias para mim.
 
-Área escolhida: [cole aqui a área da prática anterior]
-Tópicos iniciais sugeridos: [cole aqui os cinco tópicos da prática anterior]
+Área escolhida: [cole a área da prática anterior]
+Tópicos iniciais: [cole os cinco tópicos da prática anterior]
 
-Crie a estrutura do meu plano com estas seções:
+Estruture com:
 - Meu objetivo
-- Tempo disponível por dia
-- Roteiro semanal (semanas 1 a 4) distribuindo os tópicos acima
+- Cronograma semanal (semanas 1 a 4) distribuindo os tópicos
 - Materiais e referências por semana
-- Como acompanhar meu progresso
 
-Deixe espaços marcados para eu preencher com meus próprios dados depois.
+Considere conteúdos sobre essa área que estejam nos meus emails ou no meu Drive.
+Sugerindo assim, materiais que já fazem parte do meu contexto (sem expor dados sensíveis).
 ```
 
-**Passo 2: Preencher com sugestões em tempo real**
+> [!TIP]
+> Repare na última instrução do prompt. Ao pedir que o copiloto considere seus emails e arquivos, ele pode incluir cursos em que você se inscreveu, newsletters que recebe ou documentos que já salvou. É aqui que a diferença entre chatbot e copiloto fica clara: o copiloto te conhece, o chatbot não.
 
-Comece a preencher cada seção. Conforme você digita, o copiloto vai sugerindo continuações. Aceite as que fazem sentido, ignore as que não, e perceba como ele se adapta ao que você escreve.
+**Passo 2: Refinar com sugestões em tempo real**
 
-**Passo 3: Refinar trechos pontuais**
+Comece a ajustar o que veio. Conforme você digita, o copiloto vai sugerindo continuações. Aceite as que fazem sentido, ignore as que não, e perceba como ele se adapta ao seu jeito de escrever.
+
+**Passo 3: Reescrever trechos pontuais**
 
 Selecione um parágrafo e peça:
 
 ```
-Reescreva este trecho de forma mais clara e motivadora (quero me manter engajado).
+Reescreva este trecho de forma mais clara e motivadora.
 ```
 
-Ao final, salve o documento. Você vai colar o conteúdo dele na próxima prática.
+Ao final, salve o documento. Você vai usar o conteúdo dele na próxima prática.
 
 ---
 
@@ -113,21 +117,20 @@ Crie uma pasta no seu computador (a área de trabalho serve) e abra o Google Ant
 Use o prompt abaixo, colando o conteúdo do documento da prática anterior no espaço indicado:
 
 ```
-Tenho um plano de estudos que escrevi com a ajuda de um copiloto. Segue o conteúdo:
+Segue o plano de estudos que escrevi com a ajuda de um copiloto:
 
 ---
-[cole aqui o conteúdo do documento da prática anterior]
+[cole o conteúdo do documento da prática anterior]
 ---
 
-Quero materializar esse plano nesta pasta. Crie os seguintes arquivos:
+Materialize esse plano nesta pasta criando:
 
-1. README.md com o resumo do meu plano e meu objetivo
-2. cronograma.md com o roteiro semanal já distribuído (semanas 1 a 4)
+1. README.md com o resumo do plano
+2. cronograma.md com o roteiro semanal (semanas 1 a 4)
 3. uma pasta "anotacoes" com um modelo "semana-01.md" para eu duplicar
 4. recursos.md com os materiais separados por semana
 
-Antes de criar, me explique em poucas linhas como vai estruturar.
-Depois pode executar e me mostrar o resultado.
+Antes de criar, me explique brevemente sua estrutura. Depois execute.
 ```
 
 **Passo 3: Revisar o que foi criado**
