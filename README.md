@@ -151,7 +151,8 @@ A escolha da ferramenta é menos importante que entender o conceito de cada nív
 - [Claude](https://claude.ai)
 - [Microsoft Copilot](https://copilot.microsoft.com)
 - [Gemini](https://gemini.google.com)
-
+- [DeepSeek](https://www.deepseek.com/en)
+  
 ### Copilotos
 
 - [Google Docs com Gemini](https://docs.google.com)
